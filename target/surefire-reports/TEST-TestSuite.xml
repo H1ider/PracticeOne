@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="20.643" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\OWNER\.m2\repository\webdriver\chromedriver\win32\93.0.4577.63\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Study\QATEK_AUTOMATION\target\test-classes;D:\Study\QATEK_AUTOMATION\target\classes;C:\Users\OWNER\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\OWNER\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\OWNER\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\OWNER\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\OWNER\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\OWNER\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\OWNER\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\OWNER\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\OWNER\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\OWNER\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\OWNER\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\OWNER\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\OWNER\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\OWNER\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\OWNER\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\OWNER\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\OWNER\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\OWNER\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\OWNER\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\OWNER\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\OWNER\.m2\repository\io\github\bonigarcia\webdrivermanager\4.1.0\webdrivermanager-4.1.0.jar;C:\Users\OWNER\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\OWNER\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\OWNER\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\OWNER\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\OWNER\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\OWNER\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\OWNER\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\OWNER\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\OWNER\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\OWNER\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\OWNER\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\OWNER\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\OWNER\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\OWNER\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\OWNER\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\OWNER\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\OWNER\.m2\repository\org\postgresql\postgresql\42.2.23\postgresql-42.2.23.jar;C:\Users\OWNER\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\OWNER\.m2\repository\io\qameta\allure\allure-testng\2.14.0\allure-testng-2.14.0.jar;C:\Users\OWNER\.m2\repository\io\qameta\allure\allure-java-commons\2.14.0\allure-java-commons-2.14.0.jar;C:\Users\OWNER\.m2\repository\io\qameta\allure\allure-model\2.14.0\allure-model-2.14.0.jar;C:\Users\OWNER\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\OWNER\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\OWNER\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\OWNER\.m2\repository\org\apache\tika\tika-core\1.26\tika-core-1.26.jar;C:\Users\OWNER\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\OWNER\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\OWNER\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\OWNER\.m2\repository\org\jooq\joor-java-8\0.9.14\joor-java-8-0.9.14.jar;C:\Users\OWNER\.m2\repository\io\qameta\allure\allure-test-filter\2.14.0\allure-test-filter-2.14.0.jar;C:\Users\OWNER\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\OWNER\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\OWNER\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\OWNER\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\OWNER\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\OWNER\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\OWNER\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\OWNER\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\OWNER\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\OWNER\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\OWNER\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\OWNER\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\OWNER\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\OWNER\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\OWNER\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\OWNER\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\OWNER\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\OWNER\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\OWNER\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\OWNER\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\OWNER\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\OWNER\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\OWNER\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin"/>
+    <property name="sun.java.command" value="C:\Users\OWNER\AppData\Local\Temp\surefire17619446787270142292\surefirebooter10231419533304079697.jar C:\Users\OWNER\AppData\Local\Temp\surefire17619446787270142292 2021-09-10T22-04-10_208-jvmRun1 surefire4268486742814699082tmp surefire_017995582196945573557tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Study\QATEK_AUTOMATION\target\test-classes;D:\Study\QATEK_AUTOMATION\target\classes;C:\Users\OWNER\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\OWNER\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\OWNER\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\OWNER\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\OWNER\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\OWNER\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\OWNER\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\OWNER\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\OWNER\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\OWNER\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\OWNER\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\OWNER\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\OWNER\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\OWNER\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\OWNER\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\OWNER\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\OWNER\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\OWNER\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\OWNER\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\OWNER\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\OWNER\.m2\repository\io\github\bonigarcia\webdrivermanager\4.1.0\webdrivermanager-4.1.0.jar;C:\Users\OWNER\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\OWNER\.m2\repository\commons-io\commons-io\2.7\commons-io-2.7.jar;C:\Users\OWNER\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\Users\OWNER\.m2\repository\org\apache\commons\commons-lang3\3.10\commons-lang3-3.10.jar;C:\Users\OWNER\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.1\httpclient5-5.0.1.jar;C:\Users\OWNER\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.1\httpcore5-5.0.1.jar;C:\Users\OWNER\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.0.1\httpcore5-h2-5.0.1.jar;C:\Users\OWNER\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\OWNER\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\OWNER\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\OWNER\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;C:\Users\OWNER\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\OWNER\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\OWNER\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\OWNER\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\OWNER\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\OWNER\.m2\repository\org\postgresql\postgresql\42.2.23\postgresql-42.2.23.jar;C:\Users\OWNER\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\OWNER\.m2\repository\io\qameta\allure\allure-testng\2.14.0\allure-testng-2.14.0.jar;C:\Users\OWNER\.m2\repository\io\qameta\allure\allure-java-commons\2.14.0\allure-java-commons-2.14.0.jar;C:\Users\OWNER\.m2\repository\io\qameta\allure\allure-model\2.14.0\allure-model-2.14.0.jar;C:\Users\OWNER\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.3\jackson-databind-2.12.3.jar;C:\Users\OWNER\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.3\jackson-annotations-2.12.3.jar;C:\Users\OWNER\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.3\jackson-core-2.12.3.jar;C:\Users\OWNER\.m2\repository\org\apache\tika\tika-core\1.26\tika-core-1.26.jar;C:\Users\OWNER\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\OWNER\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\OWNER\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\OWNER\.m2\repository\org\jooq\joor-java-8\0.9.14\joor-java-8-0.9.14.jar;C:\Users\OWNER\.m2\repository\io\qameta\allure\allure-test-filter\2.14.0\allure-test-filter-2.14.0.jar;C:\Users\OWNER\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\OWNER\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\OWNER\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\OWNER\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\OWNER\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\OWNER\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\OWNER\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\OWNER\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\OWNER\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\OWNER\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\OWNER\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\OWNER\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\OWNER\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\OWNER\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\OWNER\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\OWNER\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\OWNER\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\OWNER\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\OWNER\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\OWNER\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\OWNER\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\OWNER\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\OWNER\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\OWNER"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Study\QATEK_AUTOMATION"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\OWNER\AppData\Local\Temp\surefire17619446787270142292\surefirebooter10231419533304079697.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
+    <property name="user.name" value="OWNER"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\OWNER\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\OWNER\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="D:\Study\QATEK_AUTOMATION"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python39\Scripts\;C:\Python39\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk-11.0.11\bin;C:\Program Files\apache-maven-3.8.1\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\OWNER\AppData\Local\Android\Sdk\platform-tools;C:\Users\OWNER\AppData\Local\Android\Sdk\tools;C:\Users\OWNER\AppData\Local\Android\Sdk\tools\bin;C:\allure-2.14.0\bin;C:\Python37\Scripts\;C:\Python37\;C:\Users\OWNER\AppData\Local\Microsoft\WindowsApps;C:\Users\OWNER\AppData\Local\gitkraken\bin;C:\Users\OWNER\AppData\Roaming\npm;C:\Users\OWNER\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="calculateMonthlyPayment" classname="automation_test.mortgage_calculator.CalculateMonthlyPayment" time="2.083">
+    <system-out><![CDATA[22:04:14.947 [main] INFO  automation_test.mortgage_calculator.CalculateMonthlyPayment - ---------- Start Test (CalculateMonthlyPayment)---------
+22:04:16.614 [main] INFO  automation_test.mortgage_calculator.CalculateMonthlyPayment - Browser is successfully initiated with the url https://www.mortgagecalculator.org/
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 35609
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 10, 2021 10:04:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="CalculateRealApr" classname="automation_test.mortgage_calculator.CalculateRates" time="3.148">
+    <system-out><![CDATA[22:04:19.468 [main] INFO  automation_test.mortgage_calculator.CalculateMonthlyPayment - Browser is closed
+22:04:19.468 [main] INFO  automation_test.mortgage_calculator.CalculateMonthlyPayment - == End Test (CalculateMonthlyPayment)==
+22:04:20.542 [main] INFO  automation_test.mortgage_calculator.CalculateRates - ---------- Start Test (CalculateRates)---------
+22:04:22.021 [main] INFO  automation_test.mortgage_calculator.CalculateRates - Browser is successfully initiated with the url https://www.mortgagecalculator.org/
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 31381
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 10, 2021 10:04:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyHomePageTitle" classname="automation_test.php_travel.ValidatePHPTravelWebTitle" time="0">
+    <system-out><![CDATA[22:04:25.872 [main] INFO  automation_test.mortgage_calculator.CalculateRates - Browser is closed
+22:04:25.872 [main] INFO  automation_test.mortgage_calculator.CalculateRates - == End Test (CalculateRates)==
+22:04:26.949 [main] INFO  automation_test.php_travel.ValidatePHPTravelWebTitle - ---------- Start Test (ValidatePHPTravelWebTitle)---------
+22:04:27.761 [main] INFO  automation_test.php_travel.ValidatePHPTravelWebTitle - Browser is successfully initiated with the url https://phptravels.com/demo/ 
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 30155
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Sep 10, 2021 10:04:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="attemptToGetUserWithInvalidId" classname="api_test.GetTestWithPathVariable" time="1.233">
+    <system-out><![CDATA[22:04:28.367 [main] INFO  automation_test.php_travel.ValidatePHPTravelWebTitle - Browser is closed
+22:04:28.367 [main] INFO  automation_test.php_travel.ValidatePHPTravelWebTitle - == End Test (ValidatePHPTravelWebTitle)==
+22:04:28.371 [main] INFO  api_test.GetTestWithPathVariable - --------------------API Test: Attempt To Retrieve User With Invalid id
+22:04:29.599 [main] INFO  api_test.GetTestWithPathVariable - --------------------End Test: Attempt To Retrieve User With Invalid id
+]]></system-out>
+  </testcase>
+  <testcase name="getSingleUser" classname="api_test.GetTestWithPathVariable" time="0.4">
+    <system-out><![CDATA[22:04:29.603 [main] INFO  api_test.GetTestWithPathVariable - --------------------API Test: Read(Get) A Single User with Path Variable
+22:04:30.001 [main] INFO  api_test.GetTestWithPathVariable - --------------------End Test: Read(Get) A Single User with Path Variable
+]]></system-out>
+  </testcase>
+  <testcase name="getUsersWithQueryParameter" classname="api_test.GetTestWithQueryParameter" time="0.129">
+    <system-out><![CDATA[22:04:30.004 [main] INFO  api_test.GetTestWithQueryParameter - --------------------API Test: Read(Get) ALL Users with query Parameter
+22:04:30.131 [main] INFO  api_test.GetTestWithQueryParameter - --------------------End Test: Read(Get) ALL Users with query Parameter
+]]></system-out>
+  </testcase>
+  <testcase name="deleteSingleUser" classname="api_test.SimpleDeleteTest" time="0.282">
+    <system-out><![CDATA[22:04:30.133 [main] INFO  api_test.SimpleDeleteTest - --------------------API Test: Delete User
+22:04:30.415 [main] INFO  api_test.SimpleDeleteTest - --------------------End Test: Delete User
+]]></system-out>
+  </testcase>
+  <testcase name="getAllUsers" classname="api_test.SimpleGetTest" time="0.102">
+    <system-out><![CDATA[22:04:30.417 [main] INFO  api_test.SimpleGetTest - --------------------API Test: Read(Get) ALL Users
+22:04:30.516 [main] INFO  api_test.SimpleGetTest - --------------------End Test: Read(Get) ALL Users
+]]></system-out>
+  </testcase>
+  <testcase name="UpdateUserFields" classname="api_test.SimplePatchTest" time="0.391">
+    <system-out><![CDATA[22:04:30.518 [main] INFO  api_test.SimplePatchTest - --------------------API Test: Update(Patch) User's Single Field
+22:04:30.906 [main] INFO  api_test.SimplePatchTest - --------------------End Test: Update(Patch) User's Single Field
+]]></system-out>
+  </testcase>
+  <testcase name="CreateNewUser" classname="api_test.SimplePostTest" time="0.346">
+    <system-out><![CDATA[22:04:30.908 [main] INFO  api_test.SimplePostTest - --------------------API Test: Create(Post) A New User
+22:04:31.254 [main] INFO  api_test.SimplePostTest - --------------------End Test: Create(Post) A New User
+]]></system-out>
+  </testcase>
+  <testcase name="UpdateUserFields" classname="api_test.SimplePutTest" time="0.311">
+    <system-out><![CDATA[22:04:31.257 [main] INFO  api_test.SimplePutTest - --------------------API Test: Update User Fields
+22:04:31.563 [main] INFO  api_test.SimplePutTest - --------------------End Test: Update User Fields
+]]></system-out>
+  </testcase>
+</testsuite>
